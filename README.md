@@ -278,7 +278,7 @@ del server (la imagen **tupfrcutn/elecciones-2023:1.0.0**) y el cliente (nuestra
    
 
 | **Parcial 2 - Elecciones 2023**                                                                         | **Puntos** |
-|---------------------------------------------------------------------------------------------------------|------------|
+|---------------------------------------------------------------------------------------------------------|-----------|
 | **1. Crear una API que exponga todos los distritos y permita buscar por nombre.**                      | **10** |
 | - Exposición de todos los distritos.                                                                    | 5 |
 | - Búsqueda por nombre de distrito.                                                                      | 5 |
@@ -297,5 +297,5 @@ del server (la imagen **tupfrcutn/elecciones-2023:1.0.0**) y el cliente (nuestra
 | - Dockerfile correctamente configurado para la app.                                                     | 10 |
 | **7. Entregar el proyecto con un archivo docker-compose.**                                              | **20** |
 | - Docker-compose que permita ejecutar la imagen tupfrcutn/elecciones-2023:1.0.0 junto a la app.         | 20 |
-| **TOTAL**                                                                                               | **100** |
+| **TOTAL**                                                                                               | **10** |
 
