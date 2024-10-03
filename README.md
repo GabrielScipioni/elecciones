@@ -273,3 +273,29 @@ curl --location 'http://localhost:8080/resultados?distrito_id=4&seccion_id=26'
 
 7. Entregar el proyecto con un archivo docker-compose para poder ehjecutar en simultaneo el contenedor 
 del server (la imagen **tupfrcutn/elecciones-2023:1.0.0**) y el cliente (nuestra app) <span style="color:red">**(20 puntos)**</span>
+
+
+   
+
+| **Parcial 2 - Elecciones 2023**                                                                         | **Puntos** |
+|---------------------------------------------------------------------------------------------------------|------------|
+| **1. Crear una API que exponga todos los distritos y permita buscar por nombre.**                      | **10** |
+| - Exposición de todos los distritos.                                                                    | 5 |
+| - Búsqueda por nombre de distrito.                                                                      | 5 |
+| **2. Crear una API que exponga los cargos disponibles para votar por distrito.**                        | **5** |
+| - Exposición de cargos por distrito.                                                                    | 5 |
+| **3. Crear una API que exponga todas las secciones de un distrito y permita buscar una sección específica.** | **10** |
+| - Exposición de todas las secciones de un distrito.                                                     | 5 |
+| - Búsqueda de una sección en un distrito.                                                               | 5 |
+| **4. Crear una API que exponga un resumen de resultados electorales de una sección y distrito.**        | **25** |
+| - Sumatoria total de votos y agrupación por tipo de voto.                                               | 10 |
+| - Porcentaje de votos respecto al total del distrito y sección.                                         | 10 |
+| - Ordenar de mayor a menor según votos obtenidos por agrupación.                                        | 5 |
+| **5. Crear tests para lograr un 80% de cobertura.**                                                     | **20** |
+| - Creación de tests funcionales y de integración.                                                       | 20 |
+| **6. Entregar el proyecto con un Dockerfile.**                                                          | **10** |
+| - Dockerfile correctamente configurado para la app.                                                     | 10 |
+| **7. Entregar el proyecto con un archivo docker-compose.**                                              | **20** |
+| - Docker-compose que permita ejecutar la imagen tupfrcutn/elecciones-2023:1.0.0 junto a la app.         | 20 |
+| **TOTAL**                                                                                               | **100** |
+
